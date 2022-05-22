@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e449b214658c0969551398255da3282d3686d1fb122c692cc9900bf620d44f5e.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1ec417050ec839742627c904063c05a07b6603d35c3309b28e64cae0e576e193.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -51,30 +51,6 @@
             "data": "HelloHandler2E4FBA4D"
           }
         ],
-        "/CdkWorkshopStack/HelloHitCounter/Hits/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "HelloHitCounterHits7AAEBF80"
-          }
-        ],
-        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "HelloHitCounterHitCounterHandlerServiceRoleD45002B8"
-          }
-        ],
-        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/DefaultPolicy/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "HelloHitCounterHitCounterHandlerServiceRoleDefaultPolicy1487A60A"
-          }
-        ],
-        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "HelloHitCounterHitCounterHandlerDAEA7B37"
-          }
-        ],
         "/CdkWorkshopStack/Endpoint/Resource": [
           {
             "type": "aws:cdk:logicalId",
@@ -96,7 +72,7 @@
         "/CdkWorkshopStack/Endpoint/Deployment/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "EndpointDeployment318525DA7a02bafcf1f33a692d15312adb602478"
+            "data": "EndpointDeployment318525DA5f8cdfe532107839d82cbce31f859259"
           }
         ],
         "/CdkWorkshopStack/Endpoint/DeploymentStage.prod/Resource": [
@@ -151,102 +127,6 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "EndpointANY485C938B"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/Rendered/ServiceRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterRenderedServiceRole254DB4EA"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/Rendered/ServiceRole/DefaultPolicy/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterRenderedServiceRoleDefaultPolicy9ADB8C83"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/Rendered/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterRendered9C783E45"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpoint5A0EF326"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/CloudWatchRole/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointCloudWatchRole87B94D6A"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Account": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointAccount0B75E76A"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Deployment/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointDeployment1CE7C57615fe4c294585f18a4ed474d2b246124b"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/DeploymentStage.prod/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointDeploymentStageprodF3901FC7"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Endpoint": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointCA1B1E4B"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointproxy2F4C239F"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..{proxy+}": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointproxyANYApiPermissionCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANYproxy252C605A"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/ApiPermission.Test.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..{proxy+}": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointproxyANYApiPermissionTestCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANYproxy1404CEF4"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/{proxy+}/ANY/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointproxyANYFF4B8F5B"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointANYApiPermissionCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANY00F849F4"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/ANY/ApiPermission.Test.CdkWorkshopStackViewHitCounterViewerEndpointA52B16FF.ANY..": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointANYApiPermissionTestCdkWorkshopStackViewHitCounterViewerEndpointA52B16FFANY9EC7D814"
-          }
-        ],
-        "/CdkWorkshopStack/ViewHitCounter/ViewerEndpoint/Default/ANY/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "ViewHitCounterViewerEndpointANY66F2285B"
           }
         ],
         "/CdkWorkshopStack/CDKMetadata/Default": [
